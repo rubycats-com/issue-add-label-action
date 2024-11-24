@@ -16,7 +16,7 @@ jobs:
       issues: write
     steps:
       - name: Add Label
-        uses: rubycats-com/issue-add-label-action
+        uses: rubycats-com/issue-add-label-action@main
         with:
           number: ${{ github.event.issue.number }}
           label: 'delivered'
