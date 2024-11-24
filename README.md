@@ -27,7 +27,9 @@ jobs:
 | Input    | Required | Description |
 |----------|----------|-------------|
 | `number` | true     | Issue id    |
-| `label`  | true     | Label text  |
+| `label`  | true     | Label title |
+
+Please make sure that label with this title is available
 
 ## Outputs
 
